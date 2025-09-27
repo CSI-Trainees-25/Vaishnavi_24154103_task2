@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <button class="task-button" onclick="addTask()">Task +</button>
+    <div class="stats" id="stats">0 Task | 0 In progress | 0 Done</div>
+  </header>
+
+  <div class="container">
+    <div class="task-list" id="taskList">
+    </div>
+
+    <div class="do-now" id="doNow">
+      <h3>Do Now</h3>
+      <div id="doNowContent">No task selected</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
